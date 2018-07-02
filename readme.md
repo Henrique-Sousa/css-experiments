@@ -1,3 +1,3 @@
 # css-experiments
 
-See this on [codepen](codepen.io/henriquesousa/)
+See this on https://codepen.io/henriquesousa/
