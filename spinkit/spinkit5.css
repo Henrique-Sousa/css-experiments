@@ -1,0 +1,23 @@
+body{
+  background: #7f8c8d;
+}
+
+#outer{
+  padding-top: 70px;
+}
+
+#circle{
+  margin: auto;
+  background: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: grow 1s infinite ease-in-out; 
+}
+
+@keyframes grow{
+  to{
+    transform: scale(6);
+    opacity: 0;
+  }
+}
