@@ -1,0 +1,34 @@
+body{
+  background: #2c3e50;
+  margin: 0;
+  padding: 0;
+}
+
+#spinner{
+  margin-top: 100px;
+  position: relative;
+  text-align: center;
+}
+
+.circle{
+  margin: auto;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  background: white;
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  animation: pulse 2s infinite ease-in-out; 
+}
+
+@keyframes pulse{
+  50%{
+    transform: scale(50);
+    opacity: 0.5;
+  }  
+}
+
+#circ2{
+  animation-delay: 1s;  
+}
