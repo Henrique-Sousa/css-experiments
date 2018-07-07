@@ -1,4 +1,4 @@
-# Spinkit
+# 100daysofcss.com
 
 These are my versions of some of CSS experiments of https://100dayscss.com/
 
